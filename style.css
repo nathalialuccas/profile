@@ -1,0 +1,64 @@
+/* Colors and Fonts */
+
+body{
+  background: #F3F9F2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #326671;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+img{width: 100px;}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #18565A;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .container{
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+.card{
+  background: #F6F6E5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
